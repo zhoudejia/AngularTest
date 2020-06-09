@@ -1,0 +1,25 @@
+<div class="card-detail">
+    <div *ngFor="let item of transactionList let i = index">
+        <div *ngIf="item.isToday" class="date-column">今天</div>
+        <div *ngIf="item.isYesterday" class="date-column">昨天</div>
+        <div *ngIf="!item.isToday && !item.isYesterday" class="date-column">{{item.date | date: "MM月dd日"}}</div>
+        <div *ngIf="i == 0" class="date-refresh float-right" (click)="refresh()">刷新</div>
+        <div class="Transaction-card" *ngFor="let dataInfo of item.info let j = index"
+            [ngClass]="{'Transaction-border' : j == 0}">
+            <div class="detail-icon"><i nz-icon nzType="caret-down" nzTheme="outline"></i></div>
+            <div class="detail-info">
+                <div class="mb5" title="{{dataInfo.transactionInfo}}">{{dataInfo.transactionInfo}}</div>
+                <div>
+                    <span title="{{dataInfo.commodityCategory}}">{{dataInfo.commodityCategory}}</span>
+                    <span class="float-right">{{dataInfo.transactionTime | date: "HH:mm:ss"}}</span>
+                </div>
+            </div>
+            <div class="detail-amount">
+                <div *ngIf="!dataInfo.isRecorded" class="not-recorded">未入账</div>
+                <span *ngIf="dataInfo.transactionType == 0"> - </span>
+                <span *ngIf="dataInfo.transactionType == 1"> + </span>
+                {{dataInfo.transactionAmount}}
+            </div>
+        </div>
+    </div>
+</div>

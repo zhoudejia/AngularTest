@@ -1,0 +1,52 @@
+[{
+    "month": "202006",
+    "history" :[{
+        "cardID": "001",
+        "cardType": "01",
+        "cardBalance": 387.76,
+        "budget": 400,
+        "expenditure": 112.24,
+        "income": 0
+    },{
+        "cardID": "002",
+        "cardType": "02",
+        "cardBalance": 5000,
+        "budget": 0,
+        "expenditure": 0,
+        "income": 5000
+    }]
+},{
+    "month": "202005",
+    "history" :[{
+        "cardID": "001",
+        "cardType": "01",
+        "cardBalance": 500,
+        "budget": 0,
+        "expenditure": 500,
+        "income": 500
+    },{
+        "cardID": "002",
+        "cardType": "02",
+        "cardBalance": 0,
+        "budget": 0,
+        "expenditure": 0,
+        "income": 0
+    }]
+},{
+    "month": "202004",
+    "history" :[{
+        "cardID": "001",
+        "cardType": "01",
+        "cardBalance": 500,
+        "budget": 0,
+        "expenditure": 500,
+        "income": 500
+    },{
+        "cardID": "002",
+        "cardType": "02",
+        "cardBalance": 0,
+        "budget": 0,
+        "expenditure": 0,
+        "income": 0
+    }]
+}]

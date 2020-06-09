@@ -1,0 +1,71 @@
+[{
+    "date": 1591682192312,
+    "info": [
+        {
+        "transactionInfo": "交易信息00000000000000000000000000000000001",
+        "transactionAmount": "13.50",
+        "transactionType": 0,
+        "isRecorded": false,
+        "commodityCategory": "零食烟酒",
+        "transactionTime": 1591661728000
+        }
+    ]
+},
+{
+    "date": 1591626388000,
+    "info": [
+        {
+        "transactionInfo": "交易信息00001",
+        "transactionAmount": "5000.00",
+        "transactionType": 1,
+        "isRecorded": true, 
+        "commodityCategory": "微信转账",
+        "transactionTime": 1591597588000
+        },
+        {
+        "transactionInfo": "交易信息00002", 
+        "transactionAmount": "18.00", 
+        "transactionType": 0, 
+        "isRecorded": false, 
+        "commodityCategory": "零食烟酒",
+        "transactionTime": 1591575988000
+        }
+    ]
+},
+{
+    "date": 1591539988000,
+    "info": [
+        {
+        "transactionInfo": "交易信息00001",
+        "transactionAmount": "35.24",
+        "transactionType": 0,
+        "isRecorded": false,
+        "commodityCategory": "零食烟酒",
+        "transactionTime": 1591539988000
+        },
+        {
+        "transactionInfo": "交易信息00002",
+        "transactionAmount": "23.50",
+        "transactionType": 0,
+        "isRecorded": false,
+        "commodityCategory": "零食烟酒",
+        "transactionTime": 1591523788000
+        },
+        {
+        "transactionInfo": "交易信息00001",
+        "transactionAmount": "12.00",
+        "transactionType": 0, 
+        "isRecorded": true,
+        "commodityCategory": "零食烟酒",
+        "transactionTime": 1591509388000
+        },
+        {
+        "transactionInfo": "交易信息00002",
+        "transactionAmount": "10.00",
+        "transactionType": 0,
+        "isRecorded": true,
+        "commodityCategory": "零食烟酒",
+        "transactionTime": 1591498588000
+        }
+    ]
+}]

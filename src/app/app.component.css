@@ -1,0 +1,7 @@
+.app{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    background-color: white;
+}

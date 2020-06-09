@@ -1,0 +1,61 @@
+.card-detail{
+    width: 100%;
+    font-size: 14px;
+}
+.date-column{
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: gainsboro;
+}
+.date-refresh{
+    margin-top: -25px;
+    color: gray;
+    cursor:pointer;
+}
+.Transaction-card{
+    margin-left: 20px;
+    padding-right:20px;
+    display: flex;
+    height: 60px;
+    border-top: 1px groove gainsboro;
+}
+.Transaction-border{
+    border:hidden
+}
+.detail-icon{
+    line-height: 60px;
+}
+.detail-info{
+    width: 60%;
+    margin: 10px 0 0 10px;
+}
+.detail-info div{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+.detail-info span{
+    font-size: 12px;
+    color: 	gray;
+}
+.detail-amount{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    right: 20px; 
+}
+.not-recorded{
+    font-size: xx-small;
+    border-radius: 10px;
+    border: 1px groove orange;
+    color: orange;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding: 0 3px;
+}

@@ -1,0 +1,52 @@
+<div>
+    <select class="month-select" (change)="changeMonth($event.target.value)">
+        <option *ngFor="let monthOption of selectMonth" [value]="monthOption.value">
+            {{monthOption.name}}
+        </option>
+    </select>
+    <select class="account-select" (change)="changeAccount($event.target.value)">
+        <option *ngFor="let accountOption of selectAccount" [value]="accountOption.cardID">
+            {{accountOption.cardName}}
+        </option>
+    </select>
+</div>
+<div class="card-total">
+    <div class="card-top">
+        <span>08/2019</span>
+        <span class="float-right">余额：{{cardInfo.balance}}</span>
+    </div>
+    <div class="card-middol">
+        <div class="left">
+            <span>支出</span><br>
+            <span class="font-weight">￥：{{cardInfo.expenditure}}</span>
+        </div>
+        <div class="right">
+            <span>收入</span><br>
+            <span class="font-weight">￥：{{cardInfo.income}}</span>
+        </div>
+        <div class="icon-info-circle float-right" title="这是一个段提示信息"><i nz-icon nzType="info-circle" nzTheme="outline"></i></div>
+    </div>
+    <div class="card-bottom">
+        <span class="mr10">预算</span>
+        <span *ngIf="cardInfo.budget">{{cardInfo.budget}}</span>
+        <span *ngIf="!cardInfo.budget">您还未设置值></span>
+    </div>
+</div>
+<div class="card-button">
+    <div>
+        <img src="assets/img/001.png" class="img-button"/>
+        <span class="span-button">收支分析</span>
+    </div>
+    <div>
+        <img src="assets/img/002.png" class="img-button"/>
+        <span class="span-button">月度账单</span>
+    </div>
+    <div>
+        <img src="assets/img/003.png" class="img-button"/>
+        <span class="span-button">我的账本</span>
+    </div>
+    <div>
+        <img src="assets/img/004.png" class="img-button"/>
+        <span class="span-button">查找交易</span>
+    </div>
+</div>

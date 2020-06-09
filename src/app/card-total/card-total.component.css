@@ -1,0 +1,70 @@
+.month-select{
+    margin: 10px 0 0 20px;
+    border: hidden;
+    cursor:pointer;
+}
+.account-select {
+    float: right;
+    margin: 10px 20px 0 0;
+    border: hidden;
+    cursor:pointer;
+}
+.card-total{
+    width: 350px;
+    background-color: orange;
+    margin: 15px;;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color:#FFF;
+}
+.font-weight{
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-top{
+    margin: 10px;
+}
+.card-middol{
+    height: 50px;;
+    margin: 10px;
+}
+.card-middol .left{
+    width: 50%;
+    float: left;
+}
+.icon-info-circle{
+    margin-top: -40px;
+}
+.card-bottom{
+    margin: 10px;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+.card-button{
+    margin: 15px;;
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+}
+.card-button div{
+    margin: 0 11px;
+    width: 65px;
+    height: 65px;
+}
+.img-button{
+    width: 40px;
+    margin-left: 10px;
+}
+.span-button{
+    width: 40px;
+    margin-left: 6px;
+}
+.card-button div:hover{
+    width: 63px;
+    height: 60px;
+    border: 1px outset gainsboro;
+    cursor:pointer;
+}
