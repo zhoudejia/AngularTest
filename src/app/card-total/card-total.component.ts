@@ -31,10 +31,14 @@ export class CardTotalComponent implements OnInit {
   monthSearch = '';
   accountSearch = '000';
   cardInfo: any = [];
+  monthStr:string = '';
+  yearStr:string = '';
   constructor(public appService: AppService) { }
 
   ngOnInit(): void {
     this.monthSearch = this.selectMonth[0].value;
+    this.yearStr = this.monthSearch.substr(0, 4);
+    this.monthStr = this.monthSearch.substr(4, 2);
     this.getMonthlyTotal();
   }
 
@@ -77,6 +81,8 @@ export class CardTotalComponent implements OnInit {
   // 切换月份
   changeMonth(month) {
     this.monthSearch = month;
+    this.yearStr = this.monthSearch.substr(0, 4);
+    this.monthStr = this.monthSearch.substr(4, 2);
     this.getMonthlyTotal();
   }
 
